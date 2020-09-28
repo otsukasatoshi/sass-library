@@ -1,0 +1,29 @@
+{
+  "name": "sass-library",
+  "description": "a sass library for general use.",
+  "version": "1.0.0",
+  "main": "./src/sass/app.scss",
+  "author": "Otsuka Satoshi <https://twitter.com/otsukasatoshi>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint \"./src/sass/**/*.scss\"",
+    "format": "stylelint --fix \"./src/sass/**/*.scss\""
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otsukasatoshi/sass-library"
+  },
+  "bugs": {
+    "url": "https://github.com/otsukasatoshi/sass-library/issues"
+  }
+}
