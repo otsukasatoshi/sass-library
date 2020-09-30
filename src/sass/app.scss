@@ -9,3 +9,17 @@
 @import "variables";
 @import "mixins";
 @import "functions";
+
+// ----------------------------------------------------------------------
+//
+// Write your sass code below
+//
+// ----------------------------------------------------------------------
+
+/* ---------- Output ---------- */
+
+.el {
+  background-color: $bg-color;
+  @include box(200px);
+  @include center(xy);
+}
